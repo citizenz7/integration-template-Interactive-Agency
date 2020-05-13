@@ -74,10 +74,11 @@
       </div>
       <div class="d-flex justify-content-around">
         <p class="mb-5">
-          <span class="text-white align-middle">
+          <span class="text-white">
             <i class="fas fa-mouse fa-2x"></i>
           </span>
-          <span class="text-white align-middle small-text">Scrool down</span>
+          <br>
+          <span class="text-white small-text">Scrool down</span>
         </p>
       </div>
     </section>

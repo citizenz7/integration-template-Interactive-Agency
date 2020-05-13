@@ -1,85 +1,137 @@
 /* ----- MAIN ----- */
-
-body{
+body {
   background-color: #002;
 }
 
-.bg1{
-  background-image: url(img/Header/Layer10.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  max-width:75%;
+.text-small {
+  font-size: 11px;
+}
+
+.text-very-small {
+  font-size: 12px;
+}
+
+.lead-text1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.lead-text2 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* ----- HEAD ----- */
+.bg1 {
+  background-image: url("img/Header/Layer10.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 75%;
+}
 
-.bg1-height{
+.bg1-height {
   height: 630px;
 }
 
-.bg1-space{
+.bg1-space {
   padding-left: 140px;
   padding-right: 140px;
 }
 
-.clear1{
-  margin-top:50px;
+.clear1 {
+  margin-top: 50px;
 }
 
-.clear2{
-  margin-top:100px;
+.clear2 {
+  margin-top: 100px;
 }
 
-.clear3{
-  margin-top:230px;
+.clear3 {
+  margin-top: 230px;
 }
 
-.text-small{
-  font-size: 11px;
-}
-
-.text-very-small{
-  font-size: 12px;
-}
-
-.lead-text1{
-  font-size:28px;
-  font-weight:bold;
-}
-
-/* ----- SECTION 1 ----- */
+/* ----- Design/Code ----- */
 .myButton {
-	box-shadow:inset 0px 1px 0px 0px #bb85f2;
-	background:linear-gradient(to left, #c123de 5%, #570dbd 100%);
-	background-color:#c123de;
-	border-radius:39px;
-	border:1px solid #a511c0;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:13px;
-	padding:9px 38px;
-	text-decoration:none;
-	text-shadow:-1px 1px 0px #33083b;
+  box-shadow: inset 0px 1px 0px 0px #bb85f2;
+  background: linear-gradient(to left, #c123de 5%, #570dbd 100%);
+  background-color: #c123de;
+  border-radius: 35px;
+  border: 1px solid #a511c0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 10px;
+  padding: 5px 35px;
+  text-decoration: none;
+  text-shadow: -1px 1px 0px #33083b;
 }
+
 .myButton:hover {
-	background:linear-gradient(to left, #570dbd 5%, #c123de 100%);
-	background-color:#570dbd;
+  background: linear-gradient(to left, #570dbd 5%, #c123de 100%);
+  background-color: #570dbd;
 }
+
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
-
-#bestdesign{
-  background-image: url("img/Code/Layer7.jpeg");
-  background-size: cover;
+.title1 {
+  font-size: 28px;
 }
 
-#bestcode{
+#bestdesign {
   background-image: url("img/Code/Layer7.jpeg");
   background-size: cover;
+  font-size: 10px;
+}
+
+#bestdesign .paddingbestdesign {
+  padding: 90px 40px 90px 175px;
+}
+
+#bestcode {
+  background-image: url("img/Code/Layer7.jpeg");
+  background-size: cover;
+  font-size: 10px;
+}
+
+#bestcode .paddingbestcode {
+  padding: 90px 175px 90px 43px;
+}
+
+/* ----- What we do ----- */
+#whatwedo {
+  background-color: white;
+}
+
+#whatwedo .paddingwhatwedoleft {
+  padding: 10px 40px 20px 175px;
+}
+
+#whatwedo .paddingwhatwedoright {
+  padding: 10px 175px 20px 43px;
+}
+
+/* ----- About us ----- */
+/* ----- Map ----- */
+#map {
+  background-image: url("img/Map/map.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.pin {
+  color: #c123de;
+}
+
+#footer {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 150px;
 }
