@@ -120,6 +120,17 @@ body {
   padding: 10px 175px 20px 43px;
 }
 
+/* ----- Portfolio ----- */
+#portfolio-darken {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)),
+    url("img/portfolio/Layer14.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /* ----- About us ----- */
 #aboutus {
   background:
