@@ -163,10 +163,13 @@ body {
   padding-bottom: 150px;
 }
 
-.pin {
-  color: #c123de;
+#location{
+  background: -webkit-linear-gradient(#c123de, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
+/* ----- Footer ----- */
 #footer {
   background-color: white;
   padding-top: 50px;
