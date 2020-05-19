@@ -37,8 +37,8 @@ body {
   background-image: url("img/Header/Layer10.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  max-width: 75%;
+  background-position: center center;
+  background-size: cover;
 }
 
 .bg1-height {
@@ -73,7 +73,7 @@ body {
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 10px;
+  font-size: 0.7vw;
   padding: 5px 35px;
   text-decoration: none;
   text-shadow: -1px 1px 0px #33083b;
@@ -132,9 +132,18 @@ body {
     linear-gradient(rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)),
     url("img/portfolio/Layer14.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-size: cover;
+}
+
+.porfolio-resp-font1{
+  font-size: 1.2vw;
+}
+
+.porfolio-resp-font2{
+  font-size: 0.7vw;
 }
 
 /* ----- About us ----- */
@@ -146,8 +155,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 150px;
-  padding-bottom: 150px;
+
 }
 
 #aboutus img {
